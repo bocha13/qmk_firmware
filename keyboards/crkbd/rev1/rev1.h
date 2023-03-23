@@ -69,6 +69,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     { KC_NO, KC_NO, KC_NO, L30, L31, L32, R30, R31, R32, KC_NO, KC_NO, KC_NO }, \
   }
 
-
 #define LAYOUT LAYOUT_split_3x6_3
 #define LAYAUT LAYOUT_split_single_board_4x12
