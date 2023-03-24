@@ -25,3 +25,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Select hand configuration */
 #define MASTER_LEFT
 
+// TRS data pin
+#define SOFT_SERIAL_PIN D0
