@@ -20,7 +20,26 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-// #define USE_MATRIX_I2C
+#undef MATRIX_ROWS
+#undef MATRIX_COLS
+#undef MATRIX_ROW_PINS
+#undef MATRIX_COL_PINS
+
+// rows are doubled-up
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 6
+
+#define MATRIX_ROW_PINS \
+    { F6, F7, B1, B2 }
+
+// wiring of each half
+#define MATRIX_COL_PINS \
+    { D4, C6, D7, B6, B4, B5 }
+
+// TRS config
+#define USE_SERIAL
+#define SPLIT_USB_DETECT
+#define SPLIT_USB_TIMEOUT 2000
 
 /* Select hand configuration */
 #define MASTER_LEFT
