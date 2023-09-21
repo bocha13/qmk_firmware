@@ -49,3 +49,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // #define SOFT_SERIAL_PIN D0
 
 #define DIODE_DIRECTION COL2ROW
+
+// enable unicode chars for Linux
+#define UNICODE_SELECTED_MODES UNICODE_MODE_LINUX
