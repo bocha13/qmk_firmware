@@ -55,8 +55,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     { R05, R04, R03, R02, R01, R00 }, \
     { R15, R14, R13, R12, R11, R10 }, \
     { R25, R24, R23, R22, R21, R20 }, \
-    { R30, R31, R32, R33, R34, R35 }, \
-    { KC_NO, R40, R41, R42, R43, R44 } \
+    { R35, R34, R33, R32, R31, R30 }, \
+    { KC_NO, R44, R43, R42, R41, R40 } \
   }
 
 #define LAYOUT_split_3x5_3( \

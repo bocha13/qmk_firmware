@@ -90,21 +90,21 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* RAISE
  * ,----------------------------------------.                     ,-----------------------------------------.
- * |      |      |      |      |      |      |                    | PWrd |  Up  | NWrd | DLine| Bspc |
+ * |      |      |      |      |      |      |                    | PWrd |      |      |      | Bspc |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * | Esc  | Ins  | Pscr | E`   |      |      |                    |      |  U`  |  I`  |  O`  |      |      |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
  * | Tab  | a` | LCtl |LShift|        | Caps |                    |      | Left | Down | Rigth|  Del | Bspc |
  * |------+------+------+------+------+------|                    |------+------+------+------+------+------|
- * |Shift | Undo |  Cut | Copy | Paste|      |-------.     ,------|  N-  | LStr |      | LEnd |      | Shift|
+ * |Shift | Undo |  Cut | Copy | Paste|      |-------.     ,------|  N-  |      |      |      |      | Shift|
  * `-----------------------------------------/       /     \      \-----------------------------------------'
  *            | LGUI | LAlt | LCTR |      | /Space  /       \Enter \  |      | RCTR | RAlt | RGUI |
  *            |      |      |      |      |/       /         \      \ |      |      |      |      |
  *            `----------------------------------'           '------''---------------------------'
  */
-  XXXXXXX, XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX,                            KC_PGUP, KC_PRVWD,   KC_UP, KC_NXTWD,KC_DLINE, KC_BSPC,
+  XXXXXXX, XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX,                            KC_PGUP, XXXXXXX,   KC_UP, XXXXXXX,XXXXXXX, KC_BSPC,
   XXXXXXX,  KC_INS,  KC_PSCR,   UC(0x00E9),  XXXXXXX, XXXXXXX,                        XXXXXXX, UC(0x00FA) , UC(0x00ED), UC(0x00F3) , XXXXXXX , XXXXXXX,
   XXXXXXX, UC(0x00E1),  KC_LCTL,  KC_LSFT,  XXXXXXX, KC_CAPS,                       KC_PGDN,  KC_LEFT, KC_DOWN, KC_RGHT,  KC_DEL, KC_BSPC,
-  XXXXXXX,KC_UNDO, KC_CUT, KC_COPY, KC_PASTE, XXXXXXX,  XXXXXXX,       XXXXXXX,  UC(0x00F1), KC_LSTRT, XXXXXXX, KC_LEND,   XXXXXXX, XXXXXXX,
+  XXXXXXX,KC_UNDO, KC_CUT, KC_COPY, KC_PASTE, XXXXXXX,                      UC(0x00F1), XXXXXXX, XXXXXXX, XXXXXXX,   XXXXXXX, XXXXXXX,
                          KC_LGUI,KC_LALT,KC_LGUI, XXXXXXX, KC_SPC,    KC_ENT,  XXXXXXX, KC_RCTL, KC_RALT, KC_RGUI
     )};
