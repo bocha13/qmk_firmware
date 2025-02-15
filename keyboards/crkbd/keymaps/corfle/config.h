@@ -29,12 +29,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_ROWS 10
 #define MATRIX_COLS 6
 
-#define MATRIX_ROW_PINS \
-    { F5, F6, F7, B1, B2 }
+#define MATRIX_ROW_PINS {F5, F6, F7, B1, B2}
 
 // wiring of each half
-#define MATRIX_COL_PINS \
-    { D4, C6, D7, B6, B4, B5 }
+#define MATRIX_COL_PINS {D4, C6, D7, B6, B4, B5}
 
 // TRS config
 #define USE_SERIAL
@@ -52,5 +50,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define DIODE_DIRECTION COL2ROW
 
-// enable unicode chars for Linux
-#define UNICODE_SELECTED_MODES UNICODE_MODE_LINUX
+// enable unicode chars for Linux and MacOS
+#define UNICODE_SELECTED_MODES UNICODE_MODE_LINUX UNICODE_MODE_MACOS
