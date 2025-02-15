@@ -81,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *            `----------------------------------'           '------''---------------------------'
  */
 KC_ESC,   KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                        KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F10,  KC_F11,
-  KC_TAB, UC_MODE_LINUX, UC_MODE_MACOS, UC_PREV, UC_NEXT, KC_5,                        KC_6,    KC_7,    KC_8,    KC_9,    KC_0,  KC_F12,
+  KC_TAB, UNICODE_MODE_LINUX, UNICODE_MODE_MACOS, UC_PREV, UC_NEXT, KC_5,                        KC_6,    KC_7,    KC_8,    KC_9,    KC_0,  KC_F12,
   KC_LSFT, KC_EXLM,   KC_AT, KC_HASH,  KC_DLR, KC_PERC,                       KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_GRV,
   KC_LCTL,  KC_EQL, KC_MINS, KC_PLUS, KC_LCBR, KC_RCBR,                       KC_LBRC, KC_RBRC, KC_SCLN, KC_COLN, KC_BSLS,  KC_RSFT,
                          KC_LGUI,KC_LALT,KC_LGUI, MO(3), KC_SPC,    KC_ENT,  XXXXXXX, KC_RCTL, KC_RALT, KC_RGUI
